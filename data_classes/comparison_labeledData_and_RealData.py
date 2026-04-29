@@ -24,6 +24,6 @@ df_comparison.to_csv("./final_datasets/sample_data_label_studio/matching.csv", i
 accuracy = df_comparison['matching'].mean() * 100 
 print(f"Human Labeled Data Accuracy : {accuracy: .2f}%")
 
-# The Accuracy of 70,41% shows the complexity of the Dataset, while labeling i had Problem with diftinguishing the Categories, especially with the categories irony and sarcasm. Also the Category Negation and Neutral are a challenge
+# The Accuracy of 70,41% shows the complexity of the Dataset, while labeling i had Problem with distinguishing the Categories, especially with the categories irony and sarcasm. Also the Category Negation and Neutral are a challenge
 # This reflects the real world becuase sarcasm and irony are adjacent lingustical concepts, same goes for negative and negational patterns. 
 # With these Results we are Setting a Human Baseline the System should at least have a accuracy of 65% 

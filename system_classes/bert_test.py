@@ -28,10 +28,7 @@ test_loader = DataLoader(test_dataset, batch_size=16, shuffle=False)
     
 accuracy, report, df_test_result = evaluator_test_phase.evaluate(test_loader)
     
-    
 print(f"Accuracy test dataset :{accuracy}")
 print(report)
-
-df_test_result.info()
 
 df_test_result.to_csv("./final_datasets/splitted_Datasets/test_Dataset/test_results.csv",index=False) 

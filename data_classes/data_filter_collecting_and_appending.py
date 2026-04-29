@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from pathlib import Path
 
 # Filtering of the Positive and Negative Reviews, we want to get 2000 of each Category. These two Categories will have the most Data because they are easy to obtain and very Common in the real World. 
-df = pd.read_csv("./datasets/amazon_reviews_us_software_v1_preprocessed.csv")
+df = pd.read_csv("./datasets/amazon_reviews_us_software_v1_preprocessed.csv") 
 dfshuffled = df.sample(frac=1) # Randomly Shuffle the data to achieve a higher data Quality. Reviews are now more random and broad.  
  
 df_positiveReviews = dfshuffled

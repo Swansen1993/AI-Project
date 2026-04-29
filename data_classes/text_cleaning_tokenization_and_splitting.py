@@ -33,10 +33,7 @@ print(review_lengths.describe()) # figuring out how long our max length of the s
 
 
 #vertically splitting the Dataset to hold the answers and questions separate
-
-# Hier muss ich mich später nochmal entscheiden ob ich eventuell die verarbeitung wieder etwas einfacher  mache , indem ich das Datenset wieder zusammenlege und keinen vertikalen split mache, die verarbeitung und 
-# aufteilung der der Daten in der Methode train_test_split erfolgt dann über die spalten
-# = df_cleaned['review_body], df_cleaned['sentiment'] in der übergabe der train_test_split Methode
+# = df_cleaned['review_body], df_cleaned['sentiment']
 
 X_all_data_questions = df_cleaned[["id","review_body"]]
 y_all_data_answers = df_cleaned["sentiment"]

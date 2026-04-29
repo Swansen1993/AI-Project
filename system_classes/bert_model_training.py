@@ -22,7 +22,7 @@ else:
     device = torch.device("cpu")
     print("just uses cpu")
 
-model.to(device) # exporting the model onto the gpu 
+model.to(device) # exporting the model to the gpu 
 
 df_train_inputs = pd.read_parquet("./final_datasets/splitted_Datasets/training_Dataset/TrainingQuestions.parquet")
 df_train_labels = pd.read_parquet("./final_datasets/splitted_Datasets/training_Dataset/TrainingAnswers.parquet")
@@ -104,4 +104,3 @@ tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 model_to_save = model.module if hasattr(model, 'module') else  model 
 model_to_save.save_pretrained(MODEL_SAVE_PATH)
 tokenizer.save_pretrained(MODEL_SAVE_PATH)
-
