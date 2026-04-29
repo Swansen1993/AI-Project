@@ -7,7 +7,7 @@ https://huggingface.co/Swansen1993/RepositoryBertModels/tree/main
 
 The Used Raw Data Files from Kaggle can be found here:
 
-dataset neutral,negative,positive,multipolarity, negation: https://www.kaggle.com/datasets/cynthiarempel/amazon-us-customer-reviews-dataset
+dataset neutral,negative,positive,multipolarity, negation: https://www.kaggle.com/datasets/cynthiarempel/amazon-us-customer-reviews-dataset?select=amazon_reviews_us_Software_v1_00.tsv
 sarcastic reviews : https://www.kaggle.com/datasets/danofer/sarcasm
 ironic reviews : https://www.kaggle.com/datasets/nikhiljohnk/tweets-with-sarcasm-and-irony
 
