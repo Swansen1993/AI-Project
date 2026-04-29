@@ -13,3 +13,10 @@ ironic reviews : https://www.kaggle.com/datasets/nikhiljohnk/tweets-with-sarcasm
 
 The Code in the Class dataset_download_and_preprocessing should work to download these directly from Kaggle. 
 As a safety precaution the links will be posted here anyways. 
+
+In the Folder for Phase 2 is every Data File that is missing in the Github Repository these Files can also be added manually 
+
+file path bert models: ./AI Project /saved_models/ Folder with the models 
+file path raw data : ./AI Project /datasets/raw_data/ raw_data files
+
+This way all paths in the classes should work. 
