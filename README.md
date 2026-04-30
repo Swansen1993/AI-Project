@@ -14,10 +14,14 @@ ironic reviews : https://www.kaggle.com/datasets/nikhiljohnk/tweets-with-sarcasm
 The Code in the Class dataset_download_and_preprocessing should work to download these directly from Kaggle. 
 As a safety precaution the links will be posted here anyways. 
 
-In the Folder for Phase 2 is every Data File that is missing in the Github Repository these Files can also be added manually 
+In the Folder for Phase 2 is every Data File that is missing in the Github Repository these Files can also be added manually if you don't want to download them. 
 
 file path bert models: ./AI Project /saved_models/ Folder with the models 
 file path raw data : ./AI Project /datasets/raw_data/ raw_data files
+
+The File Tree should look like this:
+
+![alt text](image.png)
 
 This way all paths in the classes should work. 
 
@@ -25,9 +29,8 @@ Short User Guide Tableu new Data:
 
 The System promises a renewal of data after a new file was processed with the marketing_datasets_input_User_Interface class. 
 
-We have 1 challenge that hinders us to deliver the functionality directly with the shipped tableu package of phase 2. 
+We have one challenge that hinders us to deliver the functionality directly with the shipped tableu package of phase 2. 
 The deeper problem is that in tableu a normal package tableu.twb is indeed dynamic and can adjust the visualized data after we start the marketing_datasets_input_User_Interface class
-
 But in the context of this university project i need to ship the tableu package to my tutor. The twb package is very fragile, the paths to load the csv-Files to load the new data is a path that is a full path, so it also includes the username. 
 
 To still be able to use the dynamic functions of the tableu dashboard i recommend following approach/workaround: 
@@ -41,4 +44,4 @@ To still be able to use the dynamic functions of the tableu dashboard i recommen
 The Dataset loaded right now into the tableu Dashboard is the : /AI Project /final_datasets/splitted_Datasets/test_Dataset/TestQuestion.parquet
 So for further testing you should try the dataset : /AI Project /final_datasets/splitted_Datasets/validation_Datasets/ValidateQuestions.parquet 
 
-This approach is pretty complicated but the only one i could find where i can guarantee a secure shippment of the tableu package and also being able to show the dynamic functionality. 
+This approach is pretty complicated, but the only one i could find where i can guarantee a secure shippment of the tableu package and also being able to show the dynamic functionality. 
