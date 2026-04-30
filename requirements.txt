@@ -10,7 +10,6 @@ pyjanitor
 ipykernel
 kagglehub
 demoji
-re
 janitor
 json
 huggingface_hub
