@@ -47,15 +47,15 @@ id,review_body,sentiment,vader_score,textblobscore,weighted_sentiment_label,weig
 108330,[[asin:b001vpgbco vhs to dvd 4.0 delux]    have had a few problem with this software and this company has no interest in helping out.  poor customer service and support.,negation,-0.524,-0.3,negative,-0.434,negative,negative,-0.717
 104856,after waiting for some time i finally had to get amazon involved to get my money back. i never did get the oppertunity to use it.,negation,0.178,0.0,positive,0.107,negation,negation,0.0
 68156,"the software would not load. the verison of mac(i.e., i've got lion, os 10.8.4) in the description is completely silent!!!  not worth the paper it was written on. aside from that, the 5 volume seems excessive for html, at a glance.",negation,-0.423,-0.133,negative,-0.307,negation,negation,0.0
-82167,"the software has no structure, just repetitive exercises.  i was expecting more from this product, i guess you get what you pay for.",negation,-0.557,0.125,negative,-0.284,negation,negation,0.0
+82167,"the software has no structure, just repetitive exercises.  i was expecting more from this product, i guess you get what you pay for.",negation,-0.557,0.125,negative,-0.284,neutral,negative,-0.475
 5199,it did not work ... had to return product,negation,0.0,0.0,neutral,0.0,negation,negation,0.0
 53485,it's okey....just didn't meet my expectations....more business than personal orientated.  wanted something that i can use for more personal headings and what-not.,negation,0.0,0.167,positive,0.067,neutral,negative,-0.3
 5268,"this is 9.99 on britannica's own website and almost worth that much. to be fair i did not but it here but that price is a crime, original from britannica at release was 10 dollars less.",negation,-0.214,0.362,neutral,0.016,negation,negation,0.0
 129389,i have never in my life had so many problems installing software.  i have been trying to get this software to work properly for the last 2 weeks.  i'm ready to tell nero inc where to stick this software....and it isn't in my puter that's for sure!,negation,0.276,0.265,positive,0.272,negation,negation,0.0
-81673,"it's a cd and there is not much of the business or swot, it's not worth the money you spend on this thing at all",negation,-0.17,-0.125,negative,-0.152,negation,negation,0.0
+81673,"it's a cd and there is not much of the business or swot, it's not worth the money you spend on this thing at all",negation,-0.17,-0.125,negative,-0.152,negative,negative,-0.576
 41845,"my fault out of impatience.  this may be to upgrade to windows 7 - a higher form - if you already have it.  i wanted to upgrade from windows xp to a more recent form.  now that we've opened the package, i suppose i cannot return it?",negation,-0.44,0.25,negative,-0.164,negation,negation,0.0
 28732,a lot of info here in this software. would like to modify to my specific need not sure if i can. will call to see about support. overall great for the flipper.,negation,0.809,0.138,positive,0.541,positive,positive,0.104
-93248,we had to go thru the install process 4 times and do lots of online research to make work. even then quality is very disappointing.  this is first one we tried and was not as described.,negation,-0.541,-0.265,negative,-0.431,negation,negation,0.0
+93248,we had to go thru the install process 4 times and do lots of online research to make work. even then quality is very disappointing.  this is first one we tried and was not as described.,negation,-0.541,-0.265,negative,-0.431,neutral,negative,-0.549
 132010,the software doesn't support electronic filing for the state of oregon.  what a joke.  last year i used turbo tax and it had no problems filing my state return electronically.  that's a lot block.,negation,-0.178,0.0,negative,-0.107,negative,negative,-0.553
 102496,i got my for lets plays and its ok it gets the job done but really it would have been smarter to get a hdprv. not worth more then 40$.,negation,0.625,0.262,positive,0.48,multipolarity,multipolarity,0.0
 51505,too bad. this is the non useful item i have ever ordered<br />i re-grate it a lot. take it out of the market. do not sell it again.,negation,-0.153,-0.2,negative,-0.172,negative,negative,-0.586
@@ -67,7 +67,7 @@ id,review_body,sentiment,vader_score,textblobscore,weighted_sentiment_label,weig
 22173,the glass door did not fit my rotisserie :(,negation,-0.614,-0.475,negative,-0.558,negation,negation,0.0
 15399,"this disk did not do anything to my computer, i lost 15.00 instead of gaining access to my computer.:(",negation,0.128,-0.75,negative,-0.223,negation,negation,0.0
 125996,"in spite of the cost being reasonable, i think 1 cent, it wasn't worth the postage i paid, and it was useless. i thought it would have a menu of some sorts and found that the diet recommendations not reasonable either.",negation,-0.782,-0.025,negative,-0.479,negation,negation,0.0
-125021,do not buy this software! i am just waiting until pc-cillin for 2008 is released and then i'll switch back. i can't believe how sloooooowwwwww this piece of s*$@ makes everything! i would not use this product again even if norton was giving it away.,negation,0.456,0.0,positive,0.274,negation,negation,0.0
+125021,do not buy this software! i am just waiting until pc-cillin for 2008 is released and then i'll switch back. i can't believe how sloooooowwwwww this piece of s*$@ makes everything! i would not use this product again even if norton was giving it away.,negation,0.456,0.0,positive,0.274,negative,negative,-0.363
 62534,it was ok but not as great as i was hoping it would be . it did help me but not a lot.it will probably work great for someone else.,negation,0.877,0.7,positive,0.806,multipolarity,multipolarity,0.0
 16945,i already had this very old program...can not be used on new computers.  thought i was ordering a new version.  would not refund.  accused me of making a copy of it and then returning.  it was sealed!!,negation,0.355,0.16,positive,0.277,negation,negation,0.0
 91208,have been unable to install with the donwloaded version. have windows 7 and have never had issue with other computer products. had the same refund issues as another customer. a waste of time and money.,negation,-0.422,-0.206,negative,-0.336,negative,negative,-0.668
@@ -92,21 +92,21 @@ id,review_body,sentiment,vader_score,textblobscore,weighted_sentiment_label,weig
 126032,"the previous reviews pretty much say it all, but 1 more thing to add is technical support by e-mail, does not exists ! do not buy, you are better off with the version 6 pro.",negation,0.869,0.214,positive,0.607,multipolarity,multipolarity,0.0
 31122,good product but technical support is very poor. i have worked with mcafee three times on one issue and their technical support has failed to resolve the issue. this is a good product as long as you do not have to contact tech support,negation,0.869,0.047,positive,0.54,multipolarity,multipolarity,0.0
 40189,i bought this unit to replace an old device that would not work anymore.  after hours of trying to get it to work on win 8.1 the computer would not recognize the device.,negation,0.586,0.45,positive,0.532,negation,negation,0.0
-33833,i was sent a program for a pc with a different product key. i requested a refund but i have not heard back.,negation,0.0,0.0,neutral,0.0,multipolarity,multipolarity,0.0
+33833,i was sent a program for a pc with a different product key. i requested a refund but i have not heard back.,negation,0.0,0.0,neutral,0.0,negation,negation,0.0
 132039,"my biggest beef with this product is the speakers do not always  enunciate, which made attempting to repeat what they said a struggle.",negation,-0.318,0.0,negative,-0.191,neutral,negative,-0.429
 101629,the product key was no good...the disk was no good.. was not usable at all  i had to purchase new download fron the registry mechanic website a total loss of money. beware to buyer,negation,-0.735,-0.053,negative,-0.462,negation,negation,0.0
 60731,"well, i loaded it up and got an error when the software tried to register itself online.  not a great way to introduce me to it.  i suppose i'll try again later, but this doesn't bode well.",negation,-0.567,-0.2,negative,-0.42,multipolarity,multipolarity,0.0
-58714,what the heck happened to photoshop? there are too many useless features and nothing for a professional. i'm going back to creative suite 3 version of photoshop. it has more functionality!!!,negation,0.244,0.263,positive,0.252,negative,negative,-0.374
+58714,what the heck happened to photoshop? there are too many useless features and nothing for a professional. i'm going back to creative suite 3 version of photoshop. it has more functionality!!!,negation,0.244,0.263,positive,0.252,negation,negation,0.0
 53752,cannot finished tax because form 1040a and  schedule  a  not ready. update function was also not working! confidence in turbotax badly shaken.,negation,-0.818,-0.412,negative,-0.656,negation,negation,0.0
 46858,not compatible with widows 8.1 this should be plainly stated and fix they offered was not easy and did not work for me,negation,-0.341,-0.215,negative,-0.291,negation,negation,0.0
 9571,i tried and tried to get this loaded on my computer but to no avail.,negation,-0.422,0.0,negative,-0.253,multipolarity,multipolarity,0.0
 96230,"this program had bugs and issues and would not install on not one, but both of my pcs, even after talking through the \\""problem\\"" with one of mcafee's own technicians. i would not recommend this particular program.",negation,-0.736,0.383,negative,-0.288,negation,negation,0.0
-124167,"this product works fine, however the software that comes with it is a pain to install, and will not work until you install all updates.",negation,-0.361,0.417,neutral,-0.05,negation,negation,0.0
+124167,"this product works fine, however the software that comes with it is a pain to install, and will not work until you install all updates.",negation,-0.361,0.417,neutral,-0.05,neutral,negative,-0.358
 18272,"after reading what is required, i decided i did not like it.",negation,-0.276,0.0,negative,-0.166,neutral,negative,-0.416
 20886,"not bad, i am a paramedic and use it to write my reports. it does fairly well with medical terminology. you certainly have to proof read and fix error but my report writing time is far less now.",negation,0.324,0.2,positive,0.274,multipolarity,multipolarity,0.0
 108252,"does not work on mac osx 10.6. per scholastic tech support, \\""if you have a newer mac machine with one of the later os versions (10.4 or later) the game will not work as it was meant to run on an older system.\\""",negation,0.402,-0.058,positive,0.218,negation,negation,0.0
 130642,buy cosmi dvd ripper suite (windows) insted of this one.  this one works not as fast.,negation,0.0,0.2,positive,0.08,negation,negation,0.0
-73891,"the one sent to me was broken in that half of the digits do not show up. in other words, it only showed half of each number. lame.",negation,-0.681,-0.226,negative,-0.499,negation,negation,0.0
+73891,"the one sent to me was broken in that half of the digits do not show up. in other words, it only showed half of each number. lame.",negation,-0.681,-0.226,negative,-0.499,negative,negative,-0.75
 73603,the description said it would work on a newer mac but it does not.<br />could not use at all. a waste.,negation,-0.572,-0.2,negative,-0.423,negative,negative,-0.712
 7222,received disc. it appears that the disc was blank. no files had been written to the disc. i have software to run super cd+g discs and burn them. no success.,negation,-0.077,0.061,neutral,-0.022,negation,negation,0.0
 114900,disappointing that this software does not work on 64 bit versions of vista.  company states they do not plan to create a compatible version.,negation,-0.614,-0.6,negative,-0.608,negation,negation,0.0
@@ -115,8 +115,8 @@ id,review_body,sentiment,vader_score,textblobscore,weighted_sentiment_label,weig
 114772,"i used webroot parental controls.  the product was easily bypassed by my teen.  when i asked tech support for help, they were difficult to contact and offered no help.",negation,0.466,-0.022,positive,0.271,negation,negation,0.0
 100410,as soon as i completed this upgrade my computer speed cut by a minimum of 50%. i am not happy about this at all,negation,-0.625,-0.4,negative,-0.535,negation,negation,0.0
 133861,"this product does not support win 2k platform (even though the box says win-98 or higher)platform and the company will not support this product, they tell you to spend more money to upgrade to a more expensive product",negation,-0.764,0.325,negative,-0.328,negation,negation,0.0
-16593,"i could not get it to do what i needed it for, so i deleted it and tossed.<br />  i wanted to change my video files to one format, but this failed miserably. also,i could not get it to record anything.",negation,-0.888,-0.75,negative,-0.833,multipolarity,multipolarity,0.0
-111220,"google search on the problems people have with their deduction pro not being imported in. its nearly march, they should have had this fixed by now.",negation,-0.402,0.1,negative,-0.201,negation,negation,0.0
+16593,"i could not get it to do what i needed it for, so i deleted it and tossed.<br />  i wanted to change my video files to one format, but this failed miserably. also,i could not get it to record anything.",negation,-0.888,-0.75,negative,-0.833,negation,negation,0.0
+111220,"google search on the problems people have with their deduction pro not being imported in. its nearly march, they should have had this fixed by now.",negation,-0.402,0.1,negative,-0.201,neutral,negative,-0.434
 119547,"never recieved item.  tried to email seller several times, no answer.  had to go to amazon to get money back.  i would never buy from this seller again.",negation,-0.128,0.0,negative,-0.077,negation,negation,0.0
 48209,"after an extensive search for an accounting & business software for my mac i find quickbooks meets all my needs and is powerful enough to grow with my company. initial set-up takes quite a bit of work, but is well worth it.",negation,0.612,0.12,positive,0.415,multipolarity,multipolarity,0.0
 65786,it would not install on my computer and i only have windows 7.  i didn't realize that this was a very old disk...nor compatible...very disappointed.,negation,-0.477,-0.207,negative,-0.369,negation,negation,0.0
@@ -126,7 +126,7 @@ id,review_body,sentiment,vader_score,textblobscore,weighted_sentiment_label,weig
 124080,why would you have a writing program with no word count? buy another program this one stinks!,negation,-0.541,-0.75,negative,-0.625,negative,negative,-0.812
 123374,"an amazing program, although i did not achieve the voice recognition percentage as high as other reviewers.  my spoken words were recognized abut 80% of the time.",negation,0.586,0.212,positive,0.436,positive,positive,0.052
 90027,would not load on my new dell xps 8500 with windows 8.  not sure what the problem is ?  but it is not useable.,negation,-0.325,-0.057,negative,-0.218,negation,negation,0.0
-71779,returned item because it was not 'user friendly' ... terrible to work with.  reordered ... 3d home design deluxe ... it works great.,negation,-0.16,0.194,neutral,-0.018,neutral,negative,-0.343
+71779,returned item because it was not 'user friendly' ... terrible to work with.  reordered ... 3d home design deluxe ... it works great.,negation,-0.16,0.194,neutral,-0.018,negation,negation,0.0
 73874,"if you want to reinstall windows 7 don't buy this, this will not work. i wanted to re-install windows 7 on my existing machine  but did not work.",negation,0.039,0.0,neutral,0.023,negative,negative,-0.488
 8680,this business plan is for a major private emergency room operation not urgent care as the term is used in everyday use.  the data will not help me in designing an urgent care clinic model as i thought.,negation,-0.52,-0.046,negative,-0.33,negation,negation,0.0
 5783,i was unable to install and the 30 day return policy expired i can not find a phone number to contact the company.,negation,0.077,-0.5,negative,-0.154,negation,negation,0.0
@@ -148,7 +148,7 @@ id,review_body,sentiment,vader_score,textblobscore,weighted_sentiment_label,weig
 107944,this works but not that well. always has touble getting correct updates and you'll forever be reinstalling it. i threw mine away and bought vipre. now i'm safe and secure on all my computers not just one. who owns just one?,negation,0.694,0.45,positive,0.596,multipolarity,multipolarity,0.0
 114712,the new gps rarely works...it not designed well at all....the program works slow and it was difficult to find the number to tech support.,negation,-0.081,-0.091,negative,-0.085,negation,negation,0.0
 123706,there's no real improvement from two years ago.  the games are too game-like and provide no real scholastic benefit.  my son felt the games were too young for him and he's 9.  he said the games were boring.,negation,-0.635,-0.275,negative,-0.491,negation,negation,0.0
-6715,if i could give no stars i would over priced and confusing. trying to reach in your pockets for more $$$$$,negation,-0.459,0.1,negative,-0.235,negation,negation,0.0
+6715,if i could give no stars i would over priced and confusing. trying to reach in your pockets for more $$$$$,negation,-0.459,0.1,negative,-0.235,neutral,negative,-0.451
 86355,"the disc was for a 32 bit acer with windows 7, but i needed a 64 bit recovery disc. the company was very good about sending me a replacement disc at no charge.",negation,0.359,0.91,positive,0.579,multipolarity,multipolarity,0.0
 94633,product is not nearly as good nor user friendly as the pc version. scanning multiple page documents is problematic. had i known of its shortfalls i would have looked elsewhere,negation,-0.787,0.008,negative,-0.469,negation,negation,0.0
 64167,be aware. this application needs microsoft dot net framework 1.1 to run which is no longer supported in windows 8.1.,negation,-0.487,0.125,negative,-0.242,negation,negation,0.0
@@ -170,7 +170,7 @@ id,review_body,sentiment,vader_score,textblobscore,weighted_sentiment_label,weig
 78979,"it's office, it loads and does, well, what office does. i am not a big windows fan but had to buy this for work and would recommend it for anyone looking for office.",multipolarity,0.665,0.0,positive,0.399,multipolarity,multipolarity,0.0
 7608,"no problem. i have always been using norton products. slows my computer down, but that is the price you pay for security.",multipolarity,0.482,-0.156,positive,0.227,irony,irony,0.0
 18308,i have to hire someone to teach me how to use this program.  it is very complicated but very effective if i can ever figure it out,multipolarity,0.68,0.065,positive,0.434,multipolarity,multipolarity,0.0
-77490,"its not the best but u definitely get your moneys worth its very responsive and handles tablet pressure well,the color system is decent to.",multipolarity,0.681,0.333,positive,0.542,positive,positive,0.104
+77490,"its not the best but u definitely get your moneys worth its very responsive and handles tablet pressure well,the color system is decent to.",multipolarity,0.681,0.333,positive,0.542,multipolarity,multipolarity,0.0
 39797,"had to buy a new computer to handle it, but it works great as advertised. few bugs, but very user friendly",multipolarity,0.908,0.262,positive,0.65,positive,positive,0.158
 59705,good concept . but key board control is terrible especially  driving  and controlling character. if joy stick could be used might work. i like the game because of the random crimes that occur.,multipolarity,0.739,-0.057,positive,0.421,multipolarity,multipolarity,0.0
 27321,"memorized transactions do not convert well. seem to work, but if you edit them you have to reenter all the split values as it has them in negative figures.",multipolarity,-0.442,-0.3,negative,-0.385,multipolarity,multipolarity,0.0
@@ -187,7 +187,7 @@ id,review_body,sentiment,vader_score,textblobscore,weighted_sentiment_label,weig
 3288,"still gives protection, but it doesn't work as good as used to.",multipolarity,-0.478,0.7,neutral,-0.007,multipolarity,multipolarity,0.0
 32513,"works great but complicated.  i usually revert to using ms photo gallery.  but, this may be useful sometime in the future for a complicated photo.",multipolarity,0.751,-0.025,positive,0.441,multipolarity,multipolarity,0.0
 4596,you have to upgrade.  imposed change/purchase is something i am not a fan of.  but there are some added features i like. quickbooks is very good - once you get more familiar and are aware of some of its quirks.  installing new version was a breeze.,multipolarity,0.785,0.434,positive,0.645,multipolarity,multipolarity,0.0
-69655,"by process of elimination this product is good if not great... but only by process of elimination,in other words the other competition sucks so bad which makes this product good",multipolarity,-0.78,-0.031,negative,-0.48,multipolarity,multipolarity,0.0
+69655,"by process of elimination this product is good if not great... but only by process of elimination,in other words the other competition sucks so bad which makes this product good",multipolarity,-0.78,-0.031,negative,-0.48,sarcastic,sarcasm,0.0
 53577,"works pretty much as 2011. the report function does some strange things with actual vs. budgets. it works, but some times, the actuals do not show up. like turbotax, it takes a long time to launch.",multipolarity,-0.242,0.07,negative,-0.117,multipolarity,multipolarity,0.0
 87308,"very good product but not easy at all to manage it your self , you most know deep technicall details",multipolarity,-0.253,0.298,neutral,-0.033,multipolarity,multipolarity,0.0
 45281,to early to tell---but it was abargin  and easy to install----time will tell if i get the protection i need from this service,multipolarity,0.44,0.267,positive,0.371,multipolarity,multipolarity,0.0
@@ -204,14 +204,14 @@ id,review_body,sentiment,vader_score,textblobscore,weighted_sentiment_label,weig
 80867,"old version. if you want a new version this was not it as it was no longer even under warranty, but if do not care about warranty and it is an old version, then it is a five star/",multipolarity,-0.598,0.112,negative,-0.314,negation,negation,0.0
 93318,it is just more difficult for me to use. maybe i get the hang of it some day. to many different funtions. i am sure it is a good oiece of software but i am not thye efficient on the computer.,multipolarity,-0.317,0.283,negative,-0.077,multipolarity,multipolarity,0.0
 105141,its ok but you can find better online for free it did help my computer alittle bet it didnt take all the crap off of it but it did take anuff off of it to keep it from crashing so im happy i guess :),multipolarity,0.966,0.317,positive,0.706,multipolarity,multipolarity,0.0
-75717,"thought i'd give it a try, to see if i could make it work but, i couldn't.  won't run in any of the compatibility modes.  won't even start.  no support available.",multipolarity,-0.438,0.4,negative,-0.103,multipolarity,multipolarity,0.0
+75717,"thought i'd give it a try, to see if i could make it work but, i couldn't.  won't run in any of the compatibility modes.  won't even start.  no support available.",multipolarity,-0.438,0.4,negative,-0.103,negative,negative,-0.551
 33313,its ok works but not as good as version 11 someone needs to fix version 11 so we can use it on windows 7 or any other program we want to,multipolarity,-0.264,0.358,neutral,-0.015,multipolarity,multipolarity,0.0
 127658,my daughter loves horses and really wants to play this game but the way the arrow and background lags as you move  is very annoying. does anyone else have this problem? is there a way to fix it?<br /><br />blettre,multipolarity,-0.863,-0.4,negative,-0.678,multipolarity,multipolarity,0.0
 25568,"packaging is fine, but the product didn't clear up registry.",multipolarity,-0.335,0.258,negative,-0.098,multipolarity,multipolarity,0.0
 81460,this product does no work we with windows 8 pro but works well on windows 7. i had to order the newer version to install in on my machine!,multipolarity,0.327,0.0,positive,0.196,multipolarity,multipolarity,0.0
 38247,"not as nice as my very old version, and not as easy to use.  even the graphics are not as nice.  my older version is at 14-29yrs. old but doesn`t work in the new computer.  darn",multipolarity,-0.465,0.309,negative,-0.155,negative,negative,-0.578
 35048,large # of games and application set well but no fluctuations with score and or scoring,multipolarity,-0.307,0.214,negative,-0.099,multipolarity,multipolarity,0.0
-93161,very good but do not understand why it has being withdrawn from uk.<br />it is so simple even my 6 yr could do the entries for me<br />pls release uk version soon<br />thankyou,multipolarity,0.371,0.455,positive,0.405,positive,neutral,0.036
+93161,very good but do not understand why it has being withdrawn from uk.<br />it is so simple even my 6 yr could do the entries for me<br />pls release uk version soon<br />thankyou,multipolarity,0.371,0.455,positive,0.405,multipolarity,multipolarity,0.0
 26066,it is usable but i was looking for something that provide more template that were easy to work with.,multipolarity,0.593,0.467,positive,0.543,multipolarity,multipolarity,0.0
 126793,"terrible user interface and non-standard ui design and navigation, and lacks useful reporting like \\""how much money did i spend on...\\"", but it works pretty well otherwise.",multipolarity,0.822,-0.062,positive,0.468,multipolarity,multipolarity,0.0
 106652,"after 3 years several features stop working.  intuit says they \\""stop supporting those features after 3 years\\"" but in fact they sabotage the feature to force you to upgrade.  otherwise the software is pretty stable and useful.",multipolarity,0.727,0.2,positive,0.516,multipolarity,multipolarity,0.0
@@ -223,7 +223,7 @@ id,review_body,sentiment,vader_score,textblobscore,weighted_sentiment_label,weig
 110911,it's nice to have all the comics in electronic format but it's not enjoyable to read them on the computer in pdf format.,multipolarity,-0.298,0.175,negative,-0.109,multipolarity,multipolarity,0.0
 80544,it was okay but too many things were vague and getting an answer from the so called &#34;community&#34; is like trying to win the lottery and not buying a card.,multipolarity,0.852,0.325,positive,0.641,multipolarity,multipolarity,0.0
 12818,"i like dragon, but it doesn't always understand what i am actually saying. i hope it adapts more to my voice.",multipolarity,0.681,0.25,positive,0.509,multipolarity,multipolarity,0.0
-44163,"it has different levels of play, which is good.  it isn't as good as the hasbro scrabble game i had before, but i am happy to have a scrabble game to play without having to go on-line to play.",multipolarity,0.922,0.233,positive,0.646,multipolarity,multipolarity,0.0
+44163,"it has different levels of play, which is good.  it isn't as good as the hasbro scrabble game i had before, but i am happy to have a scrabble game to play without having to go on-line to play.",multipolarity,0.922,0.233,positive,0.646,positive,positive,0.157
 111326,the guide is a good one. not full of a lot of stats and figures but gives you a good enough idea of warhammer if you already didn't have one.,multipolarity,0.7,0.306,positive,0.542,multipolarity,multipolarity,0.0
 107533,but the service was clean and snappy. i would buy from the pioneer pc store any time.  see their store here:  http://www.amazon.com/shops/a2fporfl2u4f4x,multipolarity,0.55,0.367,positive,0.477,multipolarity,multipolarity,0.0
 85405,"i like the capability of this program, but for the novice i am i find it difficult to use. the buyer needs the full guide to properly use this program.",multipolarity,-0.361,-0.05,negative,-0.237,multipolarity,multipolarity,0.0
@@ -370,7 +370,7 @@ id,review_body,sentiment,vader_score,textblobscore,weighted_sentiment_label,weig
 133913,that's not how you do 'arguing feverishly'.. take a hint from the good doctor and main line a quart of hyperbole.,sarcastic,-0.026,0.256,positive,0.087,sarcastic,sarcasm,0.0
 134788,you dont need to learn your gear just always upgrade to the newest &amp; best and you'll be a good photographer.,sarcastic,0.796,0.85,positive,0.818,sarcastic,sarcasm,0.0
 136794,"""greater good"" ;) we all know in 2016 the most important thing to do is to lower standards, tests, and barriers to accommodate less talented minorities!",sarcastic,0.859,0.437,positive,0.69,sarcastic,sarcasm,0.0
-137577,can't be that good of a job if you had to settle for the likes of tyrone willingham &amp; charlie weis.,sarcastic,0.101,0.7,positive,0.341,irony,irony,0.0
+137577,can't be that good of a job if you had to settle for the likes of tyrone willingham &amp; charlie weis.,sarcastic,0.101,0.7,positive,0.341,sarcastic,sarcasm,0.0
 142250,"i like how you automatically assume i voted trump not stein you seem like such a nice, non-violent person, just like hilary",sarcastic,0.852,0.3,positive,0.631,sarcastic,sarcasm,0.0
 143373,"ya i'm so pumped for the rng shitstorm and blizz pushing great deck archetypes like burgle rogue, beast druid, dragon priest, and discard warlock.",sarcastic,0.681,0.8,positive,0.729,sarcastic,sarcasm,0.0
 143525,amd we all know how the govt is always on the cutting edge of technology and being great predictors of the rate of technological progress.,sarcastic,0.751,0.1,positive,0.491,sarcastic,sarcasm,0.0
@@ -379,7 +379,7 @@ id,review_body,sentiment,vader_score,textblobscore,weighted_sentiment_label,weig
 148132,"yes, because the average female hasn't at all been socialised to be a good little woman, and be kind and nurturing and take care of people, and put others' desires ahead of their own",sarcastic,0.935,0.26,positive,0.665,sarcastic,sarcasm,0.0
 148201,good thing everyone replaces their stereos annually so there are hardly any old ones still around that don't support it.,sarcastic,0.164,0.169,positive,0.166,sarcastic,sarcasm,0.0
 148264,"ah yes, as long as people are working, no matter how pointless or unethical the work they're doing actually is, it's all good right?",sarcastic,0.302,0.137,positive,0.236,sarcastic,sarcasm,0.0
-150320,"she's probably dating mediterranean (lesser) whites, when she should be dating northern european (greater) whites.",sarcastic,0.361,0.167,positive,0.283,sarcastic,sarcasm,0.0
+150320,"she's probably dating mediterranean (lesser) whites, when she should be dating northern european (greater) whites.",sarcastic,0.361,0.167,positive,0.283,irony,irony,0.0
 157430,"yeah, i remember the good old days in junior high, when we nerds would put on our black shirts, salute our _duce_, and stomp fat black lesbian trans-queers.",sarcastic,0.625,0.125,positive,0.425,sarcastic,sarcasm,0.0
 157762,"yeah man, trash talking your own team when they're people you don't know personally, through a medium that does not convey inflection and connotation is generally a great idea.",sarcastic,0.743,0.467,positive,0.633,sarcastic,sarcasm,0.0
 158180,"matt should just make a sticky thread ""dan isn't as good as he used to be megathread ^you ^fucking ^cunts """,sarcastic,-0.765,0.05,negative,-0.439,sarcastic,sarcasm,0.0
@@ -429,7 +429,7 @@ id,review_body,sentiment,vader_score,textblobscore,weighted_sentiment_label,weig
 264892,"c'mon man, you just need to drop 400 hours and get a nice car and they'll enjoy the game so much, you'll drop 700 hours to get a decent apartment",sarcastic,0.369,0.193,positive,0.299,sarcastic,sarcasm,0.0
 266667,because i am locked into the belief that the reason i'm not getting laid is because women are too irrational and only want to friendzone me because i'm nice.,sarcastic,0.178,0.3,positive,0.227,sarcastic,sarcasm,0.0
 267059,"seriously, why do meat-eaters always try to mimic human flesh by killing animals, which is never as good, instead of just enjoying the real thing?",sarcastic,-0.626,0.213,negative,-0.29,sarcastic,sarcasm,0.0
-267187,"it randomly shows you things that may or may not be accurate sometimes you'll take 2k damage in 5s and it'll show 3 sources of &lt;100 damage each, it's great and extremely useful.",sarcastic,0.225,0.25,positive,0.235,positive,neutral,-0.049
+267187,"it randomly shows you things that may or may not be accurate sometimes you'll take 2k damage in 5s and it'll show 3 sources of &lt;100 damage each, it's great and extremely useful.",sarcastic,0.225,0.25,positive,0.235,sarcastic,sarcasm,0.0
 269259,"he definetly didint perform rly good on uol, he was kicked for bad play and there was no visa problems at all",sarcastic,0.216,0.0,positive,0.13,sarcastic,sarcasm,0.0
 274409,"yep, because violating international treaties and the integrity of pretty much all your neighbors is good ol' boy behavior.",sarcastic,0.751,0.288,positive,0.566,sarcastic,sarcasm,0.0
 274415,"thanks man, i really appreciate it when people call the stuff i spend a lot of time on ""photos through filters""",sarcastic,0.709,0.2,positive,0.505,sarcastic,sarcasm,0.0
@@ -583,7 +583,7 @@ id,review_body,sentiment,vader_score,textblobscore,weighted_sentiment_label,weig
 536126,"great news, arming local militias to carry out actions on behalf of a western power has always ended really well",sarcastic,0.757,0.25,positive,0.554,sarcastic,sarcasm,0.0
 541304,"well this seems like it has a good chance of passing, isn't populist fodder with unintended consequences, and exactly what i like to see from serious candidates.",sarcastic,0.866,0.206,positive,0.602,sarcastic,sarcasm,0.0
 541312,"whaaaa, no, its cause his mind is so great it precedes his corporeal form and we sheeple can't comprehend it",sarcastic,0.738,0.8,positive,0.763,sarcastic,sarcasm,0.0
-544321,"i'm surprised zelda is winning against zelda... i mean, zelda was ok, but it was very good for its time, the graphics, the music and the story were much better than zelda's ones",sarcastic,0.895,0.366,positive,0.683,multipolarity,multipolarity,0.0
+544321,"i'm surprised zelda is winning against zelda... i mean, zelda was ok, but it was very good for its time, the graphics, the music and the story were much better than zelda's ones",sarcastic,0.895,0.366,positive,0.683,sarcastic,sarcasm,0.0
 548674,he did but you can't come in if you don't eat crackers and drink wine every other sunday while singing songs to organ music in your nice clothes god may be omnipotent but you still have to visit a specific place to worship him!,sarcastic,0.857,0.158,positive,0.577,sarcastic,sarcasm,0.0
 548802,"the bastard who wrote the nice letter on the site didnt mention a shaman spell but mentioned druids and priests, that is unacceptable and frankly insulting to those of us who play our humble nerf-magnets",sarcastic,-0.762,-0.2,negative,-0.537,sarcastic,sarcasm,0.0
 549029,i don't know what you're talking about op he made a pretty good point like how big a role deathstroke played in the nolan movies and how man of stell iv was nolans crowning achievement,sarcastic,0.875,0.317,positive,0.652,sarcastic,sarcasm,0.0
@@ -623,7 +623,7 @@ id,review_body,sentiment,vader_score,textblobscore,weighted_sentiment_label,weig
 601807,its a good thing that the republican controlled media is suppressing this baseless liberal accusations!,sarcastic,0.224,0.875,positive,0.484,sarcastic,sarcasm,0.0
 602514,people who live in third world countries and are starving should probably beat her up since she has access to good food.,sarcastic,0.026,0.279,positive,0.127,sarcastic,sarcasm,0.0
 602807,"yeah, it would be great if the big tournaments whose purpose is to show the best team, devolved into cheese fests",sarcastic,0.888,0.6,positive,0.773,sarcastic,sarcasm,0.0
-604501,strange how you were in shock for a good 40 minutes after this happened in the 42nd minute but you managed to score a goal with pedro in the 80th minute..,sarcastic,-0.064,0.325,positive,0.092,irony,irony,0.0
+604501,strange how you were in shock for a good 40 minutes after this happened in the 42nd minute but you managed to score a goal with pedro in the 80th minute..,sarcastic,-0.064,0.325,positive,0.092,sarcastic,sarcasm,0.0
 606552,"iron man 3 was actually really good, the first time i saw it under it's original title, ""kiss kiss, bang bang"".",sarcastic,0.878,0.442,positive,0.704,sarcastic,sarcasm,0.0
 606742,"oh hey, awesome you can read, pointing that out is a great help -__- i'll give you a gold star for your hard work...",sarcastic,0.888,0.503,positive,0.734,sarcastic,sarcasm,0.0
 611428,"because the countries with super serious ""educated"" old men deciding foreign policy have made such good decisions about syria.",sarcastic,0.758,0.112,positive,0.5,sarcastic,sarcasm,0.0
@@ -701,12 +701,12 @@ id,review_body,sentiment,vader_score,textblobscore,weighted_sentiment_label,weig
 716325,"they were just spying on the antivirus company to make sure that they were doing a good job on protecting citizens computers from threats, obviously.",sarcastic,0.34,0.4,positive,0.364,sarcastic,sarcasm,0.0
 716829,"taking more money away from business, increasing energy price, and handing the government large masses of money doesn't sound like a great idea to me",sarcastic,0.624,0.479,positive,0.566,sarcastic,sarcasm,0.0
 717009,"my girlfriend got banned for making a good nigger joke, but hey, apparently the mods must never hear that word on the internet.",sarcastic,-0.273,0.375,neutral,-0.014,sarcastic,sarcasm,0.0
-717738,"good to know - wondering how it relates to this picture taken by an mta employee on the broadway local near 145th street, harlem.",sarcastic,0.44,0.267,positive,0.371,irony,irony,0.0
+717738,"good to know - wondering how it relates to this picture taken by an mta employee on the broadway local near 145th street, harlem.",sarcastic,0.44,0.267,positive,0.371,sarcastic,sarcasm,0.0
 718074,well obviously it didn't look good because you don't have the refined sensibilities of someone who went through sonic fancharacter hell u.u,sarcastic,-0.71,0.35,negative,-0.286,sarcastic,sarcasm,0.0
 719196,well at least it's a bipartisan effort to screw over the last remaining growth sector with good pay and benefits that actual produces something of value,sarcastic,0.869,0.1,positive,0.561,sarcastic,sarcasm,0.0
 720379,"but it was invented by monsanto, who has the sole purpose of killing its customers because that's obviously a great way to realize profits.",sarcastic,0.527,0.4,positive,0.476,sarcastic,sarcasm,0.0
 720666,"it's the failed roes that were instated when he took office...but again, that's a foreign policy matter, and we know how great potus is w/foreign policy...",sarcastic,0.226,0.058,positive,0.159,sarcastic,sarcasm,0.0
-725052,excited to hear about how great god is and his excitement for this year and how much everybody's improved and bladdy bladdy blah.,sarcastic,0.926,0.458,positive,0.739,sarcastic,sarcasm,0.0
+725052,excited to hear about how great god is and his excitement for this year and how much everybody's improved and bladdy bladdy blah.,sarcastic,0.926,0.458,positive,0.739,irony,irony,0.0
 725345,"yeah, i totally see how a champ becomes a good support when an item gets removed that had great synergy with the champ.",sarcastic,0.952,0.5,positive,0.771,sarcastic,sarcasm,0.0
 725694,"yeah, because letting your dog sit in your yard for a couple of hours is the same as taking it for a nice long walk.",sarcastic,0.612,0.183,positive,0.44,sarcastic,sarcasm,0.0
 726038,now if we manage to convince belarus to join we can have good old pollish-lithuanian commonwealth back!,sarcastic,0.75,0.267,positive,0.557,sarcastic,sarcasm,0.0
@@ -716,7 +716,7 @@ id,review_body,sentiment,vader_score,textblobscore,weighted_sentiment_label,weig
 730366,"i agree, reggie miller's twenty minute rant wasn't enough, along with kenny smith's great analysis of the play.",sarcastic,0.765,0.4,positive,0.619,sarcastic,sarcasm,0.0
 734761,"if you're kevin durant, the great ones find a way to tell their body, not now... i'll talk to you after the playoffs.",sarcastic,0.625,0.8,positive,0.695,sarcastic,sarcasm,0.0
 734920,"man, i guess that means the 3 local community colleges in my area are out to fuck me over, good to know!",sarcastic,-0.224,0.158,negative,-0.071,sarcastic,sarcasm,0.0
-735742,business have no right to choose who they cater to and they must offer goods of all sizes whether they expect them to sell or not and whether they make them a profit or not.,sarcastic,0.178,-0.143,neutral,0.05,negation,negation,0.0
+735742,business have no right to choose who they cater to and they must offer goods of all sizes whether they expect them to sell or not and whether they make them a profit or not.,sarcastic,0.178,-0.143,neutral,0.05,sarcastic,sarcasm,0.0
 735892,all i see is three privileged white women trying to steal that nice young man's handbag while he's trying to stay hydrated,sarcastic,0.361,0.233,positive,0.31,sarcastic,sarcasm,0.0
 736766,that's why we must re-educate people to become new socialist men who will take risks for the good of society,sarcastic,0.202,0.418,positive,0.288,sarcastic,sarcasm,0.0
 736833,"but it's so much fun to get online social justice... it only takes a few clicks and bam, i can start to feel good about myself again!",sarcastic,0.939,0.202,positive,0.644,sarcastic,sarcasm,0.0
@@ -746,7 +746,7 @@ id,review_body,sentiment,vader_score,textblobscore,weighted_sentiment_label,weig
 788510,"yeah, we're lucky enough to have awesome politicians like abbott and great, customer service-focused isp's like telstra.",sarcastic,0.953,0.533,positive,0.785,sarcastic,sarcasm,0.0
 788696,shut your mouth ww is completely balanced and fair in the new jungle...he takes a great amount of skill to play.,sarcastic,0.843,0.434,positive,0.679,sarcastic,sarcasm,0.0
 792863,it's a good thing houston doesn't have anyone that can rush the passer or dominate a line of scrimmage.,sarcastic,0.34,0.7,positive,0.484,sarcastic,sarcasm,0.0
-793103,it should not be on the frontpage because i do not like it and everyones opinion is worth less than mine because i am the greatest.,sarcastic,0.611,0.378,positive,0.518,negative,negative,-0.241
+793103,it should not be on the frontpage because i do not like it and everyones opinion is worth less than mine because i am the greatest.,sarcastic,0.611,0.378,positive,0.518,negation,negation,0.0
 794197,"all i know is, riot is never about money so they must have our good playing experience in mind when they choose to make decisions like that",sarcastic,0.382,0.7,positive,0.509,sarcastic,sarcasm,0.0
 794659,"it's a great signal for the eu that sweden, germany, britain &amp; the netherlands can reach ""consensus"" on its ""reform"" without asking us smelly wogs",sarcastic,0.637,0.8,positive,0.702,sarcastic,sarcasm,0.0
 795466,"would be nice to get a video from you as well, especially over the last two or three days i've wished there were some to watch",sarcastic,0.599,0.2,positive,0.439,sarcastic,sarcasm,0.0
@@ -763,10 +763,10 @@ id,review_body,sentiment,vader_score,textblobscore,weighted_sentiment_label,weig
 753,at   well done   amazing show!,irony,0.734,0.75,positive,0.74,irony,irony,0.0
 825,oh goodness. an alligator just ate a nuetria rat. now he's coming for me. about to do a death roll.,irony,-0.226,0.0,negative,-0.136,irony,irony,0.0
 940,"poor  tied for not repaying.yet there are many with crores outstanding, who looted crores roaming free",irony,0.637,0.25,positive,0.482,irony,irony,0.0
-1012,"took a few days for it to dawn on me, but i kid you not...it really is called that. six corners, officially.",irony,0.0,0.0,neutral,0.0,irony,irony,0.0
+1012,"took a few days for it to dawn on me, but i kid you not...it really is called that. six corners, officially.",irony,0.0,0.0,neutral,0.0,multipolarity,multipolarity,0.0
 1325,kinda funny how goodell wouldn't give over his phone in the mueller report but the  wanted brady's,irony,0.203,0.25,positive,0.222,irony,irony,0.0
 1447,"my question is, when will god use  as example of great sense of  &amp; ?!",irony,0.757,1.0,positive,0.854,irony,irony,0.0
-1495,"this show was great, funny as hell but so much thought....",irony,0.178,0.417,positive,0.274,positive,neutral,-0.03
+1495,"this show was great, funny as hell but so much thought....",irony,0.178,0.417,positive,0.274,irony,irony,0.0
 1565,"after we started building our own masks for    yesterday, we're now about to colour them. and i simply love it",irony,0.637,0.55,positive,0.602,irony,irony,0.0
 1598,"good responses,everyone is 'extreme' when  discussed,no detail or nuances which is crucial 2",irony,0.44,0.192,positive,0.341,sarcastic,sarcasm,0.0
 1667,"amazing! there's more money for culture in madrid than barcelona, who'd have guessed!",irony,0.658,0.688,positive,0.67,irony,irony,0.0
@@ -778,15 +778,15 @@ id,review_body,sentiment,vader_score,textblobscore,weighted_sentiment_label,weig
 2281,ha ha love it when women use derogatory words to me &amp; say i lack class.......like being a nasty woman is classy ha ha! kd,irony,0.827,-0.125,positive,0.446,irony,irony,0.0
 2293,"i thought that's part of football , and  the score what really matters",irony,0.101,0.2,positive,0.141,irony,irony,0.0
 2351,amazing how the only people who are offended weren't aborted themselves.,irony,0.422,0.3,positive,0.373,irony,irony,0.0
-2608,i feel it's  that we at first couldn't get the shower to work and then i couldn't get it to stop.. good thing twin fixed it,irony,0.178,0.35,positive,0.247,irony,irony,0.0
+2608,i feel it's  that we at first couldn't get the shower to work and then i couldn't get it to stop.. good thing twin fixed it,irony,0.178,0.35,positive,0.247,sarcastic,sarcasm,0.0
 2673,who wants to guess what the brilliantly creative  (bought) future mn united mls stadium name will be? best buy stadium is my top pick,irony,0.94,0.44,positive,0.74,irony,irony,0.0
 2675,"it's sad to hear that you don't ""condone racism"",  , something tells me you would be great at it.",irony,0.648,0.15,positive,0.449,sarcastic,sarcasm,0.0
 2839,any day that starts with a note from   is a good day,irony,0.44,0.7,positive,0.544,irony,irony,0.0
-2913,good to see suarez stepping in as peacemaker   : messi headbutts and grabs throat of yanga-mbiwa,irony,0.71,0.7,positive,0.706,irony,irony,0.0
+2913,good to see suarez stepping in as peacemaker   : messi headbutts and grabs throat of yanga-mbiwa,irony,0.71,0.7,positive,0.706,sarcastic,sarcasm,0.0
 2927,"and the tube strike prevented me from being there.  great idea, though. sure it was much appreciated.",irony,0.852,0.5,positive,0.711,irony,irony,0.0
-2935,"brilliant performance amazing athlete, great that he can come back from the worlds and train in derby's new 50m pool",irony,0.914,0.487,positive,0.743,sarcastic,sarcasm,0.0
+2935,"brilliant performance amazing athlete, great that he can come back from the worlds and train in derby's new 50m pool",irony,0.914,0.487,positive,0.743,irony,irony,0.0
 3046,"wifey looking that prices of lego dimensions, which she really wants to play... ""how can it be that expensive? this is a kid's game!""",irony,0.451,-0.267,positive,0.164,irony,irony,0.0
-3108,scott walker says democrats can't find one good candidate as he competes with 9 others to be his party's nomination,irony,-0.341,0.7,positive,0.075,irony,irony,0.0
+3108,scott walker says democrats can't find one good candidate as he competes with 9 others to be his party's nomination,irony,-0.341,0.7,positive,0.075,sarcastic,sarcasm,0.0
 3271,donald trump probably thinks he has soo much support but it's really just people being ironic,irony,0.026,0.2,positive,0.096,irony,irony,0.0
 3278,"why is it that all the ""how to read your score report"" examples for the pearson tests have a failing score?",irony,-0.511,0.0,negative,-0.307,irony,irony,0.0
 3347,"likes the quote: ""everything was beautiful and nothing hurt.""   via",irony,0.858,0.85,positive,0.855,irony,irony,0.0
@@ -823,7 +823,7 @@ id,review_body,sentiment,vader_score,textblobscore,weighted_sentiment_label,weig
 6660,skies opened up while running errands &amp; waters are rising. good thing my new umbrella was safe &amp; dry in my car,irony,0.7,0.317,positive,0.547,irony,irony,0.0
 6845,"thanks  my pile is necessary, jeopardy, stationery, illuminate and i forget the others.dyslexic memory!",irony,-0.338,0.1,negative,-0.163,irony,irony,0.0
 6888,i believe it was alanis morissette who once sang 'it's like ray-ee-ayn on your water protest charges day',irony,-0.153,0.0,negative,-0.092,irony,irony,0.0
-6951,nice timing on this promo   i'd like to do some  in my house first please,irony,0.765,0.425,positive,0.629,irony,irony,0.0
+6951,nice timing on this promo   i'd like to do some  in my house first please,irony,0.765,0.425,positive,0.629,sarcastic,sarcasm,0.0
 7136,if someone has only gone to bm through one of these concierge services ... they've never really been to bm,irony,0.0,-0.05,neutral,-0.02,irony,irony,0.0
 7161,*gulps down* thanks. i'm bitchy today. and they're making me do my ethics and code if conduct training right now.,irony,-0.103,0.11,neutral,-0.018,irony,irony,0.0
 7183,side note. this would have been great first day of school hair,irony,0.625,0.525,positive,0.585,irony,irony,0.0
@@ -849,13 +849,13 @@ id,review_body,sentiment,vader_score,textblobscore,weighted_sentiment_label,weig
 9162,love that you talk about how great the charge is yet it's on the charger.,irony,0.852,0.65,positive,0.771,irony,irony,0.0
 9192,catching up with   &amp;   legend   on fa cup weekend,irony,0.0,0.6,positive,0.24,irony,irony,0.0
 9232,well it is,irony,0.273,0.0,positive,0.164,irony,irony,0.0
-9310,"""i have noticed how a younger wanna be older, but then the older could do anything to be young again"" nice 1",irony,0.572,0.207,positive,0.426,irony,irony,0.0
+9310,"""i have noticed how a younger wanna be older, but then the older could do anything to be young again"" nice 1",irony,0.572,0.207,positive,0.426,sarcastic,sarcasm,0.0
 9411,are united fans really singing a song to the scousers about a slip that gifted city the title?,irony,0.422,0.35,positive,0.393,irony,irony,0.0
 9421,"yes great movie; that line is said by charlton ""from my cold, dead hands"" heston",irony,0.361,0.0,positive,0.217,sarcastic,sarcasm,0.0
 9465,td and 2 others good so it's 28-17   with 2:51 to go. last season hobart won 28-18,irony,0.765,0.35,positive,0.599,irony,irony,0.0
-9513,"finally saw . well acted, great action and a much needed message that most of the world skipped in favor of",irony,0.836,0.32,positive,0.63,irony,irony,0.0
+9513,"finally saw . well acted, great action and a much needed message that most of the world skipped in favor of",irony,0.836,0.32,positive,0.63,positive,positive,0.148
 9561,"saying obama has been a "" lousy prez"". as if he's been a good . pbo has more accomplishments than most prez.",irony,-0.153,0.3,neutral,0.028,irony,irony,0.0
-9573,amazing but  is actually on the brink of a possible war that might break out due to the eu's incompetence and corruption.,irony,-0.856,0.119,negative,-0.466,irony,irony,0.0
+9573,amazing but  is actually on the brink of a possible war that might break out due to the eu's incompetence and corruption.,irony,-0.856,0.119,negative,-0.466,sarcastic,sarcasm,0.0
 9814,who knew entering a selfie competition was going to lead to winning a selfie stick?,irony,0.527,0.5,positive,0.516,irony,irony,0.0
 9879,and we rewarded the tyrant by naming a road after him  . thank god good sense prevailed.,irony,0.866,0.7,positive,0.8,irony,irony,0.0
 9880,strangers seem to always recognize your greatness before others!  @ orange park running/walking,irony,0.0,0.0,neutral,0.0,irony,irony,0.0
@@ -864,7 +864,7 @@ id,review_body,sentiment,vader_score,textblobscore,weighted_sentiment_label,weig
 10228,"reagan used the airplane behind you to help tear down the wall... well that's nice, let's build a wall.",irony,0.765,0.015,positive,0.465,sarcastic,sarcasm,0.0
 10237,gee thanks captain softy. we need strength from the right not more platitudes,irony,0.727,0.009,positive,0.44,sarcastic,sarcasm,0.0
 10294,"ah brilliant another train shambles, will miss connection as running late and stuck outside earley",irony,0.296,0.2,positive,0.258,irony,irony,0.0
-10563,"i've always been described as curious, so this sounds like pretty good news! :)",irony,0.925,0.381,positive,0.707,irony,irony,0.0
+10563,"i've always been described as curious, so this sounds like pretty good news! :)",irony,0.925,0.381,positive,0.707,sarcastic,sarcasm,0.0
 10584,just read this tweet while first track is playing!!,irony,0.336,0.391,positive,0.358,irony,irony,0.0
 10716,decided to watch mock the week to cheer myself up after a really shit day only to hear andy parsons completely dis,irony,-0.526,-0.033,negative,-0.329,irony,irony,0.0
 10799,"had a great day yday mate, cheers for having us! on way home now n were stuck behind your van.",irony,0.757,0.3,positive,0.574,irony,irony,0.0
@@ -874,8 +874,8 @@ id,review_body,sentiment,vader_score,textblobscore,weighted_sentiment_label,weig
 11218,programme about economic migrants travelling across europe is greatest itv show…&amp; is praised by the daily mail,irony,0.813,0.4,positive,0.648,irony,irony,0.0
 11288,at this point i'm really convinced that you're sick from a lack of vitamin d.,irony,-0.104,-0.257,negative,-0.165,irony,irony,0.0
 11481,why r born again christians so defensive about the unknown?  yet some of them listen to some really messed up music?,irony,-0.374,0.05,negative,-0.204,irony,irony,0.0
-11703,it would be great it more than one person knew what i was talking about with me having to explain it.. this might be,irony,0.625,0.65,positive,0.635,positive,positive,0.151
-11729,"thanks, apple for the new . now, i can upload pics to instagram and listen to the music at the same time. great work, guys!",irony,0.807,0.334,positive,0.618,irony,irony,0.0
+11703,it would be great it more than one person knew what i was talking about with me having to explain it.. this might be,irony,0.625,0.65,positive,0.635,sarcastic,sarcasm,0.0
+11729,"thanks, apple for the new . now, i can upload pics to instagram and listen to the music at the same time. great work, guys!",irony,0.807,0.334,positive,0.618,positive,positive,0.142
 11802,"luke mccown stars in verizon ad about how back ups could really shine. two weeks after ad hits air, he's starting for injured brees.",irony,-0.402,0.067,negative,-0.214,irony,irony,0.0
 11805,lights have gone out in the main stand the night the   are here,irony,0.0,0.167,positive,0.067,irony,irony,0.0
 11839,just watched hordes shoving and screaming at each other for the chance to see the  on his way to talk peace at the un. love it.,irony,0.796,0.188,positive,0.553,irony,irony,0.0

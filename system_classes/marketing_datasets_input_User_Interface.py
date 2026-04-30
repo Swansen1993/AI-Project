@@ -7,6 +7,7 @@ from tkinter import filedialog
 from torch.utils.data import TensorDataset, DataLoader
 import datetime
 from datetime import datetime
+import matplotlib.pyplot as plt
 
 if torch.backends.mps.is_available(): 
     device = torch.device("mps")

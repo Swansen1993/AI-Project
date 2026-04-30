@@ -4,13 +4,15 @@ import pandas as pd
 from sklearn.metrics import accuracy_score, classification_report
 
 
+
+
 def calculate_weighted_sentiment(vader_score, textBlob_score, bert_class ):
     
-    complex_mapping ={
-    3: "negation",
-    4: "multipolarity",
-    5: "sarcasm",
-    6: "irony"
+    complex_mapping = {
+    3:"negation" ,
+    4:"multipolarity",
+    5:"sarcasm" ,
+    6:"irony" 
     }
     
     if bert_class in complex_mapping:
@@ -79,7 +81,8 @@ df_final['hybrid_score'] = results.apply(lambda x: x[1] if isinstance(x, (tuple,
 df_final[['weighted_score']] = df_final[['weighted_score']].round(3)
 df_final[['hybrid_score']] = df_final[['hybrid_score']].round(3)
 
-# we need this map to map the predictions from the bert model in the column prediciton becuase they are still in a numeric form
+
+# we need this map to map the predictions from the bert model in the column prediciton because they are still in a numeric form
 sentiment_prediction_maping_numeric_to_string = {
     0: "negative",
     1: "neutral",
@@ -89,6 +92,7 @@ sentiment_prediction_maping_numeric_to_string = {
     5: "sarcastic", 
     6: "irony"
 }
+
 
 df_prediction_numeric_to_string = df_final.copy()
 df_prediction_numeric_to_string['prediction'] =  df_prediction_numeric_to_string['prediction'].map(sentiment_prediction_maping_numeric_to_string)
@@ -131,32 +135,4 @@ print(f"Accuracy complex categories Bert (negation,multipolarity,sarcastic,irony
 df_final.to_csv("./final_datasets/dataset_weighted_scores/weighted_scores.csv", index= False)
 df_filtered_base_categories.to_csv("./final_datasets/dataset_weighted_scores/base_categories.csv", index =False)
 df_prediction_mapped_base_category.to_csv("./final_datasets/dataset_weighted_scores/bert_base_categories.csv", index =False)
-df_predcition_mapped_complex_categories.to_csv("./final_datasets/dataset_weighted_scores/bert_complex_categories.csv", index = False)
-
-# Creating a Dataframe where all predictions are converted to String
-# preparing the Data for the csv Export 
-
-
-df_tableu_data = df_prediction_numeric_to_string
-df_tableu_data['correct_bert'] = (df_tableu_data['sentiment'] == df_tableu_data['prediction'])
-df_tableu_data['correct_vader_and_textblob'] = (df_tableu_data['sentiment']== df_tableu_data['weighted_sentiment_label'])
-
-# creating a Method so we have a comparison which model was right for the prediction of the sentiment 
-
-def match_data(row):
-    if row['sentiment'] == row['prediction'] and row['sentiment']== row['weighted_sentiment_label']:
-       return "Both Systems are correct"
-    elif row ['sentiment'] == row['prediction']:
-        return "Bert Correct"
-    elif row ['sentiment'] == row ['weighted_sentiment_label'] :
-        return "Vader and Textblob Correct"
-    else: 
-        return "Both Systems are Wrong"
-
-df_tableu_data['wright_system'] = df_tableu_data.apply(match_data,axis=1)
-
-#renaming the prediction column for easier identification in tableu 
-df_tableu_data = df_tableu_data.rename(columns={"prediction" : "prediction_bert", "sentiment": "true_sentiment"})
-
-df_tableu_data.to_csv("./final_datasets/tableu_data/tableu_export_v2.csv", index= False)
-   
+df_predcition_mapped_complex_categories.to_csv("./final_datasets/dataset_weighted_scores/bert_complex_categories.csv", index = False)   

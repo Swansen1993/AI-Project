@@ -11,7 +11,7 @@ else:
     print("just uses cpu for evaluation")
 
 
-MODEL_PATH = "v6_lr2e-5_150warmupsteps_decay0.01_epochs5"         # ! Folder name check
+MODEL_PATH = "v3_lr2e-5_100warmupsteps_0.01weight_decay"         # ! Folder name check
        
 evaluator_test_phase = BertEvaluation(f"saved_models/{MODEL_PATH}", device)    
 

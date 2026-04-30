@@ -35,13 +35,15 @@ print(review_lengths.describe()) # figuring out how long our max length of the s
 #vertically splitting the Dataset to hold the answers and questions separate
 # = df_cleaned['review_body], df_cleaned['sentiment']
 
+# A 70/15/15 Split is the Goal, We first Split the Train and Rest Size 
+
 X_all_data_questions = df_cleaned[["id","review_body"]]
 y_all_data_answers = df_cleaned["sentiment"]
 
 
 X_TrainQuestion, X_tempQuestions, y_TrainAnswers, y_tempAnswers = train_test_split (
     X_all_data_questions, y_all_data_answers, 
-    test_size = 0.3, # A 70/15/15 Split is the Goal, We first Split the Train and Rest Size 
+    test_size = 0.3, 
     random_state= 42,
     stratify= y_all_data_answers  
 )

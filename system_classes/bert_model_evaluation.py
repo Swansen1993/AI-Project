@@ -51,30 +51,17 @@ class BertEvaluation:
                 
             accuracy = accuracy_score(true_labels, predictions)
             
-            
             df_validation = pd.DataFrame({
                 'id': all_row_ids,
                 'true_label' : true_labels,
-                'prediction_bert':predictions
+                'prediction':predictions
             })
             
-            sentiment_prediction_maping_numeric_to_string = {
-            0: "negative",
-            1: "neutral",
-            2: "positive", 
-            3: "negation",
-            4: "multipolarity",
-            5: "sarcastic", 
-            6: "irony"
-            }
-            
-            df_validation['true_label'] = df_validation['true_label'].map(sentiment_prediction_maping_numeric_to_string)
-            df_validation['prediction_bert'] = df_validation['prediction_bert'].map(sentiment_prediction_maping_numeric_to_string)
-            
-            report = classification_report(df_validation['true_label'],df_validation['prediction_bert'])
-        
+            report = classification_report(df_validation['true_label'],df_validation['prediction'])
             
             return accuracy, report, df_validation
+        
+        
     
     def save_model_performance(self,save_path, accuracy,report,df_validation):
      
@@ -116,4 +103,3 @@ if __name__ == "__main__":
 # Informations directly in the terminal -> "Quick Check" 
  print(f"Acccuracy val dataset :{accuracy}")
  print(report)
- 
