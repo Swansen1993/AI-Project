@@ -7,7 +7,6 @@ from transformers import BertForSequenceClassification
 from torch.utils.data import TensorDataset, DataLoader
 import os
 
-
 if __name__ == "__main__":  # this section will be not exported when we import our bert_model_evaluation class , the test_class has its own check for the gpu
 
  if torch.backends.mps.is_available():  # new instance of the same device declaration as in the training phase
@@ -16,7 +15,6 @@ if __name__ == "__main__":  # this section will be not exported when we import o
  else:
     device = torch.device("cpu")
     print("just uses cpu for evaluation")
-    
     
 class BertEvaluation:
     def __init__(self, model_path , device):
@@ -43,7 +41,7 @@ class BertEvaluation:
                 logits = outputs.logits.detach().cpu().numpy()
                 labels_ids = labels.to("cpu").numpy()
                 
-                batch_predictions = np.argmax(logits, axis = 1).flatten() # Choosing the one the 7 categories with the highest percentage of being right according to the predictions made by bert 
+                batch_predictions = np.argmax(logits, axis = 1).flatten() # Choosing the one of the 7 categories with the highest percentage of being right, according to the predictions made by bert 
                 
                 predictions.extend(batch_predictions)          
                 true_labels.extend(labels_ids)

@@ -4,10 +4,7 @@ import pandas as pd
 from sklearn.metrics import accuracy_score, classification_report
 
 
-
-
 def calculate_weighted_sentiment(vader_score, textBlob_score, bert_class ):
-    
     complex_mapping = {
     3:"negation" ,
     4:"multipolarity",
@@ -56,8 +53,6 @@ df_bert = pd.read_csv("final_datasets/splitted_Datasets/test_Dataset/test_result
 if 'prediction' in df_textblob_vader.columns:
     df_textblob_vader = df_textblob_vader.drop(columns=['prediction']) # because of the merge method this is integrated, wo stop merge from creating new prediction columns
     
-#df_textblob_vader['id'] = df_textblob_vader['id'].astype(int)
-#df_bert['id'] = df_bert['id'].astype(int)
 
 df_final = df_textblob_vader.merge(df_bert[['id', 'prediction']], on='id', how='inner')
 df_final = df_final.drop_duplicates(subset=['id'], keep='first') # some reviews had duplicates after merge, removing them 

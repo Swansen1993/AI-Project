@@ -93,7 +93,7 @@ for epoch in range(epochs):
 #Average loss in epoch 3: 0.2898
 
 
-VERSION = "v6_lr2e-5_150warmupsteps_decay0.01_epochs5"  # ! dont forget to change name to desired name in the savedmodels Folder , needs to be done before training!! 
+VERSION = "v6_lr2e-5_150warmupsteps_decay0.01_epochs5"  # ! dont forget to change name to desired name in the savedmodels Folder , needs to be done before training!
 MODEL_SAVE_PATH = f"./saved_models/{VERSION}"
 
 if not os.path.exists(MODEL_SAVE_PATH):

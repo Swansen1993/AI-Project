@@ -14,7 +14,7 @@ df_positiveReviews = dfshuffled
 positivesummaryPatterns = "good|nice|awesome|perfect|excellent|great"
 
 df_positiveReviews = df_positiveReviews.loc[(df_positiveReviews['star_rating'].isin([4,5])) & (df_positiveReviews['review_body'].str.contains(positivesummaryPatterns,na= False, case= False))].head(1500) 
-df_positiveReviews = df_positiveReviews.drop(columns ='star_rating') # We dint need the Rating anymore and our other Dataframes csv irony and sarcasm dont have this column for the joining of these csv to a Dataframe we need to remove the star_rating
+df_positiveReviews = df_positiveReviews.drop(columns ='star_rating') # We dont need the Rating anymore and our other Dataframes csv irony and sarcasm dont have this column for the joining of these csv to a Dataframe we need to remove the star_rating
 df_positiveReviews.to_csv("final_datasets/all_categories_after_filtering/PositiveReviewsAll.csv", index_label="ID") # Naming the index Column to identify it in the next steps 
 
 dfshuffled = dfshuffled.drop(df_positiveReviews.index) # The Index Numbers of the Created Dataset are getting removed from the Initial DataSet we can now Extract a Other Category 

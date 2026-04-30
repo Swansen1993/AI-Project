@@ -35,10 +35,7 @@ if not os.path.exists('./datasets/raw_data/train-balanced-sarcasm.csv'):
         'danofer/sarcasm' , path= 'train-balanced-sarcasm.csv', output_dir= './datasets/raw_data'
     )
     
-# Direct Download of Datsets from Kaggle with the Kaggle Api and the Library kagglehub and convertion to a csv file
-# the if not os.path exists was added because the kagglehub.datset_download method did not allow to have a existing file with that name in the output directory thats why i added a condition, this way we dont need to download the file every time     
-
-    
+        
 df_sarcasm = pd.read_csv('./datasets/raw_data/train-balanced-sarcasm.csv')
 
 df_nosarcasm = df_sarcasm.loc[df_sarcasm['label'] == 0]

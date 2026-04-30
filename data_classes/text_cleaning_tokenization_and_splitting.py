@@ -6,17 +6,13 @@ from transformers import BertTokenizer
 from sklearn.model_selection import train_test_split
 
 
-
+# final Cleaning of our Datframe, especially the review_body column needs to be perfectly prepared before we tokenize the data. We want to reduce the noise here.
 def clean_text(text):
     if not isinstance(text, str):
         return ""
     text = demoji.replace(text, "")
     text = re.sub(r'[a-zA-Z\s]]', '', text)
-    return text.lower().strip()
-
-
-
-# final Cleaning of our Datframe, especially the review_body column needs to be perfectly prepared before we tokenize the data. We want to reduce the noise here. 
+    return text.lower().strip() 
 
 # Method chaining with pyjanitor
 df_cleaned = (
@@ -33,8 +29,7 @@ print(review_lengths.describe()) # figuring out how long our max length of the s
 
 
 #vertically splitting the Dataset to hold the answers and questions separate
-# = df_cleaned['review_body], df_cleaned['sentiment']
-
+# = df_cleaned['review_body]  --> Questions,   df_cleaned['sentiment'] --> Answers
 # A 70/15/15 Split is the Goal, We first Split the Train and Rest Size 
 
 X_all_data_questions = df_cleaned[["id","review_body"]]
@@ -48,7 +43,7 @@ X_TrainQuestion, X_tempQuestions, y_TrainAnswers, y_tempAnswers = train_test_spl
     stratify= y_all_data_answers  
 )
 
-# ensuring that the answer_id for every is the same as the question_id
+# ensuring that the answer_id for every row is the same as the question_id
 y_train_answers_with_ID = pd.DataFrame({
     "id" : X_TrainQuestion ["id"],
     "sentiment" : y_TrainAnswers
