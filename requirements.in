@@ -1,0 +1,15 @@
+pandas>=2.0.0
+numpy
+scikit-learn
+transformers
+torch
+textblob
+vaderSentiment
+nltk
+pyjanitor
+ipykernel
+kagglehub
+demoji
+janitor
+huggingface_hub
+matplotlib
